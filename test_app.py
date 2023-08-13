@@ -1,5 +1,8 @@
 import streamlit as st 
 import sqlalchemy
+from sqlalchemy.dialects import registry
+
+registry.register('snowflake', 'snowflake.sqlalchemy', 'dialect')
 
 # Initialize connection.
 conn = st.experimental_connection('snowflake', type='sql')
