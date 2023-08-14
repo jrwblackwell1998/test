@@ -1,4 +1,5 @@
 sqlalchemy
+snowflake.sqlalchemy
 streamlit
 pandas 
 snowflake-connector-python
