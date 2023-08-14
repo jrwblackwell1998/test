@@ -1,5 +1,6 @@
 import streamlit as st 
 import sqlalchemy
+import pymysql
 # from sqlalchemy.dialects import registry
 
 
