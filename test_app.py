@@ -1,10 +1,10 @@
 import streamlit as st 
 import sqlalchemy
 import pymysql
-# from sqlalchemy.dialects import registry
+from sqlalchemy.dialects import registry
 
 
-# registry.register('snowflake', 'snowflake.sqlalchemy', 'dialect')
+registry.register('snowflake', 'snowflake.sqlalchemy', 'dialect')
 
 # Initialize connection.
 conn = st.experimental_connection('snowflake', type='sql')
