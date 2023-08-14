@@ -1,7 +1,7 @@
 import streamlit as st 
 import sqlalchemy
 # from sqlalchemy.dialects import registry
-from snowflake.sqlalchemy import *
+
 
 # registry.register('snowflake', 'snowflake.sqlalchemy', 'dialect')
 
