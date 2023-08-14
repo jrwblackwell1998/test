@@ -2,3 +2,4 @@ sqlalchemy
 streamlit
 pandas 
 snowflake-connector-python
+pymysql
